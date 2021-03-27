@@ -1,0 +1,262 @@
+body {
+    background: linear-gradient(253deg, #0cc898, #1797d2, #864fe1);
+    background-size: 300% 300%;
+    -webkit-animation: Background 25s ease infinite;
+    -moz-animation: Background 25s ease infinite;
+    animation: Background 25s ease infinite;
+  }
+  
+  @-webkit-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Background {
+    0% {
+      background-position: 0% 50%
+    }
+    50% {
+      background-position: 100% 50%
+    }
+    100% {
+      background-position: 0% 50%
+    }
+  }
+ 
+  
+  .full-screen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(https://i.imgur.com/wCG2csZ.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    /* works with row or column */
+    
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: em;
+    letter-spacing: -2px;
+    text-align: center;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, .6);
+  }
+  
+  h1:after {
+    display: block;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family:'Courier New', Courier, monospace;
+    content: 'Subtitle goes here';
+    font-size: .2em;
+    text-align: center;
+  }
+  .heads{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#690b94;
+    text-transform: uppercase;
+
+  }
+  
+  
+  .textarea {
+      
+      color:#690b94;
+    border: 1px solid #ccc;
+    font-family: inherit;
+
+    font-size:25px;
+    padding: 1px 6px;
+  }
+  #demo
+  {
+    
+  }
+ 
+  .width-machine {
+    /*   Sort of a magic number to add extra space for number spinner */
+    padding: 0 1rem;
+  }
+  
+  .textarea {
+    display: block;
+    width: 80%;
+    text-decoration: none;
+    margin:0 auto;
+    overflow: hidden;
+    resize: both;
+    align-items: center;
+    min-height: 40px;
+    text-align:center;
+    line-height: 20px;
+    background-color:white;
+  }
+ 
+  .textarea[contenteditable]:empty::before {
+   
+    color:back;
+  }
+  .container {
+    background-color:rgba(255,255,255,.8);
+    border-radius:.25em;
+    box-shadow:0 0 .25em rgba(0,0,0,.25);
+    box-sizing:border-box;
+    left:50%;
+    width:80%;
+    padding:10vmin;
+    position:fixed;
+    text-align:center;
+    top:50%;
+    transform:translate(-50%, -50%);
+  }
+  .middle{
+    background-color:rgba(255,255,255,.8);
+    text-align:center;
+    align-content: center;
+
+  }
+  /* Just for demo */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Heebo", sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+ 
+  .header{
+      margin-top: -2%;
+      font-size:45px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:white;
+      border-color: #00a5c3;
+      font-family: Impact, Charcoal, sans-serif;
+                    font-size: 55px;
+                    letter-spacing: 4px;
+                    word-spacing:4px;
+                    color: white;
+   text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+                    font-weight: 700;
+                    text-decoration: none;
+                    font-variant: small-caps;
+                    text-transform: uppercase;
+  }
+  .single
+  {
+    display: inline-block;
+  }
+  p strong {
+    display: block;
+  }
+  .sec{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.2px;
+    word-spacing: 0px;
+    color:#690b94;
+    font-weight: 700;
+    text-decoration: none solid rgb(68, 68, 68);
+    font-style: bold;
+    font-variant: normal;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+  }
+ h2{
+    font-family: "Heebo", sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size:39px;
+ }
+ 
+ .btn3d {
+	position: relative;
+    width:40%;
+	border: 0;
+	transition: all 40ms linear;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+.btn3d:active:focus,
+.btn3d:focus:hover,
+.btn3d:focus {
+	-moz-outline-style: none;
+	outline: medium none;
+    border-color: none;
+}
+
+.btn3d:active,
+.btn3d.active {
+	top: 2px;
+}
+.btn3d.btn-magick {
+	color: #fff;
+	box-shadow: 0 0 0 1px #9a00cd inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #9823d5, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #bb39d7;
+}
+
+.btn3d.btn-magick:active,
+.btn3d.btn-magick.active {
+	box-shadow: 0 0 0 1px #9a00cd inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #bb39d7;
+}
+
+.btn3d.btn-info {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 2px rgba(255, 255, 255, 0.15) inset, 0 8px 0 0 #348FD2, 0 8px 8px 1px rgba(0, 0, 0, 0.5);
+	background-color: #39B3D7;
+}
+
+.btn3d.btn-info:active,
+.btn3d.btn-info.active {
+	box-shadow: 0 0 0 1px #00a5c3 inset, 0 0 0 1px rgba(255, 255, 255, 0.15) inset, 0 1px 3px 1px rgba(0, 0, 0, 0.3);
+	background-color: #39B3D7;
+}
